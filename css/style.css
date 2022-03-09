@@ -15,6 +15,7 @@ ul{
 
 a{
     text-decoration: none;
+    color: inherit;
 }
 
 /* COMMON */
@@ -55,6 +56,10 @@ a{
 .btn-black{
     color: #ffffff;
     background-color: #23272a;
+}
+
+.btn-blue{
+    background-color: #8ea1e1;;
 }
 
 .text{
@@ -148,16 +153,8 @@ div.nav-menu li{
 /*BANNER END */
 
 /* ADVANTAGES */
-/* .advantages{
-
-
-     border: 2px solid red; 
-}*/
-
 .column.image{
     width: 60%;
-
-    /* border: 2px solid green; */
 }
 
 /* da controllare quando si invertono le colonne*/
@@ -175,8 +172,6 @@ div.nav-menu li{
 /* FOOTER */
 footer{
     background-color: #23272a;
-
-    /* deb */
     color:#ffffff
 }
 
@@ -195,6 +190,34 @@ footer{
 }
 
 .footer-end{
-    height: 200px;
+    height: 150px;
+    line-height: 150px;
     border-top: 2px solid #4a5882;
+}
+
+li.icon{
+    display: inline-block;
+}
+
+.list-title{
+    color: #7289da;
+}
+
+.column.nav-logo-footer{
+    width:50%;
+}
+
+.nav-logo-footer img{
+    vertical-align: middle;
+    height: 40px;
+    width: auto;
+}
+
+.column.nav-register{
+    width:50%;
+    text-align: right;
+}
+
+.ita{
+    height: 1em;
 }
