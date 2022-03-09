@@ -57,6 +57,22 @@ a{
     background-color: #23272a;
 }
 
+.text{
+    color: #23272a;
+}
+
+.text-big{
+    font-size: 2.5em;
+}
+
+.text-small{
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.mb-1{
+    margin-bottom: 1em;
+}
 /* COMMON END */
 
 /* HEADER */
@@ -137,13 +153,17 @@ div.nav-menu li{
 .column.image{
     width: 60%;
 
-    height: 600px;
     border: 2px solid green;
+}
+
+/* da controllare quando si invertono le colonne*/
+.column.image img{
+    padding: 5em 2em;
+    width: 100%;
 }
 
 .column.text{
     width: 40%;
-
-    height: 600px;
-    border: 2px solid green;
+    text-align: center;
+    padding: 8em 8em;
 }
