@@ -28,6 +28,11 @@ img{
     margin: 0 auto;
 }
 
+.container-small{
+    width: 50%;
+    margin: 0 auto;
+}
+
 .clearfix::after{
     content: "";
     display: table;
@@ -79,8 +84,20 @@ img{
     line-height: 1.5em;
 }
 
+.text-center{
+    text-align: center;
+}
+
 .mb-1{
     margin-bottom: 1em;
+}
+
+.mb-5{
+    margin-bottom: 5em;
+}
+
+.pt-2{
+    padding-top: 2em;
 }
 
 .bg-c-grey{
@@ -170,6 +187,12 @@ div.nav-menu li{
     width: 40%;
     text-align: left;
     padding: 8em 8em; /* da controllare */
+}
+
+.img-stars{
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    background-position: center;
 }
 
 /* FOOTER */
