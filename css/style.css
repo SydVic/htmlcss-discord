@@ -18,6 +18,10 @@ a{
     color: inherit;
 }
 
+img{
+    width: 100%;
+}
+
 /* COMMON */
 .container{
     width: 75%;
@@ -160,7 +164,6 @@ div.nav-menu li{
 /* da controllare quando si invertono le colonne*/
 .column.image img{
     padding: 5em 2em 5em 0; /* da controllare */
-    width: 100%;
 }
 
 .column.text{
@@ -220,4 +223,5 @@ li.icon{
 
 .ita{
     height: 1em;
+    width: auto;
 }
