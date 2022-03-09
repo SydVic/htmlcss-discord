@@ -126,3 +126,24 @@ div.nav-menu li{
     margin: 1.5em auto;
 }
 /*BANNER END */
+
+/* ADVANTAGES */
+.advantages{
+
+    /* deb */
+    border: 2px solid red;
+}
+
+.column.image{
+    width: 60%;
+
+    height: 600px;
+    border: 2px solid green;
+}
+
+.column.text{
+    width: 40%;
+
+    height: 600px;
+    border: 2px solid green;
+}
