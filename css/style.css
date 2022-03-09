@@ -43,6 +43,7 @@ a{
     color: #23272a;
     background-color: #ffffff;
 }
+/* COMMON END */
 
 /* HEADER */
 header{
@@ -78,4 +79,21 @@ div.nav-menu li{
     color: #ffffff;
     font-weight: bold;
     margin: 0 2em;
+}
+/* HEADER END */
+
+/* MAIN */
+
+/* debug */
+.banner{
+    border: 1px solid red;
+}
+/* debug */
+
+.banner-content{
+    width: 50%;
+    margin: 0 auto;
+
+    /* debug */
+    border: 1px solid red;
 }
