@@ -73,6 +73,10 @@ a{
 .mb-1{
     margin-bottom: 1em;
 }
+
+.bg-c-grey{
+    background-color: #f6f6f6;
+}
 /* COMMON END */
 
 /* HEADER */
@@ -147,23 +151,23 @@ div.nav-menu li{
 .advantages{
 
     /* deb */
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .column.image{
     width: 60%;
 
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 
 /* da controllare quando si invertono le colonne*/
 .column.image img{
-    padding: 5em 2em;
+    padding: 5em 2em 5em 0; /* da controllare */
     width: 100%;
 }
 
 .column.text{
     width: 40%;
-    text-align: center;
-    padding: 8em 8em;
+    text-align: left;
+    padding: 8em 8em; /* da controllare */
 }
