@@ -1,0 +1,56 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* COMMON */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column{
+    float: left;
+
+    /* debug */
+    height: 80px;
+}
+
+/* NAV */
+.column.nav-logo{
+    width:20%;
+
+    /* debug */
+    border: 1px solid red;
+}
+
+.column.nav-login{
+    width:20%;
+
+    /* debug */
+    border: 1px solid red;
+}
+
+.column.nav-menu{
+    width:60%;
+
+    /* debug */
+    border: 1px solid red;
+}
+
+
+
+/* HEADER */
+header{
+    background-color: #3161e0;
+    height: 80px;
+}
