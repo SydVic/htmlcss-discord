@@ -34,7 +34,15 @@ a{
 }
 
 /* BUTTONS */
-.btn{
+.btn-small{
+    padding: 0.8em 1.2em;
+    border-radius: 25px;
+}
+
+.btn-large{
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: bold;
     padding: 0.8em 1.2em;
     border-radius: 25px;
 }
@@ -43,6 +51,12 @@ a{
     color: #23272a;
     background-color: #ffffff;
 }
+
+.btn-black{
+    color: #ffffff;
+    background-color: #23272a;
+}
+
 /* COMMON END */
 
 /* HEADER */
@@ -83,17 +97,32 @@ div.nav-menu li{
 /* HEADER END */
 
 /* MAIN */
-
-/* debug */
+/* BANNER*/
 .banner{
-    border: 1px solid red;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
 }
-/* debug */
 
 .banner-content{
     width: 50%;
     margin: 0 auto;
-
-    /* debug */
-    border: 1px solid red;
+    padding: 8em 0;
+    text-align: center;
+    color:#ffffff;
 }
+
+.banner-content .banner-title{
+    font-size: 3.5em;
+    margin-bottom: 1em;
+}
+
+.banner-content .banner-text{
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.banner-btn{
+    margin: 1.5em auto;
+}
+/*BANNER END */
