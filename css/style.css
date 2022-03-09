@@ -13,9 +13,13 @@ ul{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* COMMON */
 .container{
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -27,13 +31,23 @@ ul{
 
 .column{
     float: left;
+}
 
-    /* debug */
-    height: 80px;
+/* BUTTONS */
+.btn{
+    padding: 0.8em 1.2em;
+    border-radius: 25px;
+}
+
+.btn-white{
+    color: #23272a;
+    background-color: #ffffff;
 }
 
 /* HEADER */
 header{
+    background-color: #3161e0;
+    height: 80px;
     vertical-align: middle;
     line-height: 80px;
 }
@@ -41,37 +55,27 @@ header{
 /* NAV */
 .column.nav-logo{
     width:20%;
-
-    /* debug */
-    border: 1px solid red;
 }
 
 .nav-logo img{
     vertical-align: middle;
+    height: 40px;
+    width: auto;
 }
 
 .column.nav-menu{
     width:60%;
     text-align: center;
-    
-    /* debug */
-    border: 1px solid red;
 }
 
 .column.nav-login{
     width:20%;
     text-align: right;
-
-    /* debug */
-    border: 1px solid red;
 }
 
 div.nav-menu li{
     display: inline-block;
-}
-
-/* HEADER */
-header{
-    background-color: #3161e0;
-    height: 80px;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0 2em;
 }
