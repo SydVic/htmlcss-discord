@@ -103,6 +103,14 @@ img{
 .bg-c-grey{
     background-color: #f6f6f6;
 }
+
+.wave img{
+    display: block;
+}
+
+.wave.down img{
+    transform: rotate(180deg);
+}
 /* COMMON END */
 
 /* HEADER */
