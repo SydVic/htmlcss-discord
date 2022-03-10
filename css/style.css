@@ -67,7 +67,7 @@ img{
     background-color: #23272a;
 }
 
-.btn-blue{
+.btn-violet{
     background-color: #8ea1e1;;
 }
 
@@ -199,8 +199,8 @@ div.nav-menu li{
 
 .img-stars{
     background-image: url(../img/stars.svg);
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 /* FOOTER */
@@ -254,10 +254,6 @@ li.icon{
 .footer-nav li{
     font-weight: bold;
     padding-top: .8em;
-}
-
-li.list-title{
-    color: #7289da;
 }
 
 .icon a{
