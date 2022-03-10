@@ -15,7 +15,7 @@ ul{
 
 a{
     text-decoration: none;
-    color: inherit;
+    color: white;
 }
 
 img{
@@ -203,16 +203,10 @@ footer{
 
 .column.footer-nav-menu.large{
     width: 30%;
-
-    /* deb */
-    border: 1px solid green;
 }
 
 .column.footer-nav-menu{
     width: calc((100% - 30%) / 4);
-
-    /* deb */
-    border: 1px solid green;
 }
 
 .footer-end{
@@ -247,4 +241,17 @@ li.icon{
 .ita{
     height: 1em;
     width: auto;
+}
+
+.footer-nav li{
+    font-weight: bold;
+    padding-top: .8em;
+}
+
+li.list-title{
+    color: #7289da;
+}
+
+.icon a{
+    margin-right: 1em;
 }
