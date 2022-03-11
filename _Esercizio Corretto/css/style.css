@@ -1,0 +1,303 @@
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+html {
+    font-family: "Whitney", sans-serif;
+    font-size: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Struttura blocchi pagina */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+}
+
+/* Bottoni */
+.btn {
+    display: inline-block;
+    border-radius: 50px;
+}
+
+.btn-white {
+    background-color: white;
+    color: black;
+}
+
+.btn-dark {
+    background-color: #23272A;
+    color: white;
+}
+
+.btn-violet {
+    background-color: #8ea1e1;
+    color: white;
+}
+
+.btn-small {
+    padding: .6em 1em;
+    font-size: .9em;
+}
+
+.btn-large {
+    padding: .8em 1.5em;
+    font-size: 1.2em;
+}
+
+/* Proprietà di testo */
+.title {
+    margin: 1em 0;
+    font-size: 2em;
+}
+
+.text {
+    font-size: 1em;
+    line-height: 1.6em;
+}
+
+/* Background */
+.bg-gray {
+    background-color: lightgray;
+}
+
+/* HEADER */
+header {
+    height: 60px;
+    background-color: #3161E0;
+}
+
+.header-nav {
+    line-height: 60px;
+    color: white;
+}
+
+.nav-logo, 
+.nav-btn {
+    width: 15%;
+}
+
+.nav-logo img {
+    width: auto;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.nav-btn {
+    text-align: right;
+}
+
+.nav-btn a {
+    line-height: normal;
+}
+
+.nav-center {
+    width: 70%;
+    text-align: center;
+}
+
+.nav-center .header-menu li {
+    margin-right: 1em;
+    display: inline-block;
+}
+
+.nav-center .header-menu a {
+    font-size: 1em;
+    font-weight: bold;
+    color: inherit;
+}
+
+/* MAIN */
+.wave img {
+    display: block;
+}
+
+.wave.down img {
+    margin-top: -2px;
+    transform: rotate(180deg);
+}
+
+/* Jumbotron */
+.jumbotron {
+    /* height: 400px; */
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 8em 0;
+}
+
+.jumbotron-content {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.jumbotron-content .jumbotron-title {
+    font-size: 2.5em;
+    margin-bottom: .8em;
+}
+
+.jumbotron-content .buttons {
+    margin-top: 2em;
+}
+
+.jumbotron-content .buttons :first-child {
+    margin-right: 1em;
+}
+
+/* Advantage section */
+.advantage {
+    padding: 2em;
+}
+
+.advantage-content img {
+    padding-left: 2em;
+}
+
+.advantage-content.img-first img{
+    padding-left: 0;
+    padding-right: 2em;
+}
+
+.col-img {
+    width: 60%;  
+}
+
+.col-text {
+    width: 40%;
+}
+
+/* Tech section */
+.tech {
+    padding: 3em 0;
+}
+
+.tech-text {
+    padding: 0 3em;
+    text-align: center;
+}
+
+
+/* CTA section */
+.cta {
+    padding-bottom: 2em;
+}
+
+.cta-title {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 2em;
+    text-align: center;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.cta .buttons {
+    margin-top: 2em;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    padding: 2em 0;
+    background-color: #23272A;
+}
+
+/* Footer top */
+.footer-top {
+    padding-bottom: 1em;
+}
+
+.col-social {
+    width: calc(100%/3);
+}
+
+.col-menu {
+    width: calc(100%/6);
+}
+
+.col-social h4 {
+    margin-bottom: 1em;
+    font-size: 2em;
+    color: #8ea1e1;
+}
+
+.language {
+    margin-bottom: 1em;
+    color: white;
+}
+
+.language img{
+    width: 10%;
+}
+
+.social li {
+    display: inline-block;
+}
+
+.col-menu h5 {
+    margin-bottom: 1em;
+    font-size: 1em;
+    color: #8ea1e1;
+}
+
+.footer-menu li {
+    margin-bottom: .5em;
+}
+
+.footer-menu a {
+    color: white;
+}
+
+.social li a {
+    margin-left: .5em;
+    color: white;
+}
+
+/* Footer bottom */
+.footer-bottom {
+
+    /* TEST */
+    background-color: pink;
+}
+
+.col-left,
+.col-right {
+    width: 50%;
+
+      /* TEST */
+    background-color: yellow;
+}
+
+.col-right {
+    /* TEST */
+    background-color: green;
+}
